@@ -41,7 +41,7 @@ const styles = StyleSheet.create({
   textoPrueba: {
     color: 'white',
     fontSize: 64,
-    fontStyle: 'normal',
+    fontFamily: 'IrishGrover',
     textAlign: 'center',
   },
   loader: {
