@@ -36,6 +36,10 @@ export default function RootLayout() {
      headerTintColor: theme.text, headerShadowVisible: false }}>
       <Stack.Screen name="index" options={{ title: 'Index', headerShown: false}} />
       <Stack.Screen name="mainPage" options={{ title: 'Main', headerShown: false }} />  
+      <Stack.Screen name="settingsPage" options={{ title: 'Settings', headerShown: false }} />
+      <Stack.Screen name="userPage" options={{ title: 'userProfile', headerShown: false }} />
+      <Stack.Screen name="recomPage" options={{ title: 'recomendation', headerShown: false }} />
+      <Stack.Screen name="addPage" options={{ title: 'addReco', headerShown: false }} />
       <Stack.Screen name="+not-found" />
     </Stack>
   );
