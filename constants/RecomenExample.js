@@ -5,7 +5,7 @@ export const recoItems = [
         "title": "Libro Prueba 1",
         "description": "Texto de prueba sobre el primer libro",
         "score": 4,
-        "hastag": ["Libro ","Fantasia"],
+        "hastag": ["Libro","Fantasia"],
         "image": "img0"        
     },
     {
@@ -14,7 +14,7 @@ export const recoItems = [
         "title": "Pelicula prueba 1",
         "description": "Texto de prueba sobre la primera pelicula",
         "score": 7,
-        "hastag": ["Pelicula ","Terror"],
+        "hastag": ["Pelicula","Terror"],
         "image": "img1"        
     },
     {
@@ -23,7 +23,7 @@ export const recoItems = [
         "title": "Libro Prueba 2",
         "description": "Texto de prueba sobre el segundo libro",
         "score": 2,
-        "hastag": ["Libro ","Científico"],
+        "hastag": ["Libro","Científico"],
         "image": ""        
     },
     {
@@ -32,7 +32,7 @@ export const recoItems = [
         "title": "Canción Prueba 1",
         "description": "Texto de prueba sobre la primera canción",
         "score": 8,
-        "hastag": ["Musica ","Pop"],
+        "hastag": ["Musica","Pop"],
         "image": "img3"        
     },
     {
@@ -41,7 +41,52 @@ export const recoItems = [
         "title": "Libro Prueba 3",
         "description": "Texto de prueba sobre el tercer libro",
         "score": 9,
-        "hastag": ["Libro ","Terror"],
+        "hastag": ["Libro","Terror"],
+        "image": ""        
+    },
+    {
+        "id": 5,
+        "user": "User1",
+        "title": "Libro Prueba 3",
+        "description": "Texto de prueba sobre el tercer libro",
+        "score": 9,
+        "hastag": ["Libro","Terror"],
+        "image": ""        
+    },
+    {
+        "id": 6,
+        "user": "User1",
+        "title": "Libro Prueba 3",
+        "description": "Texto de prueba sobre el tercer libro",
+        "score": 9,
+        "hastag": ["Libro","Terror"],
+        "image": ""        
+    },
+    {
+        "id": 7,
+        "user": "User1",
+        "title": "Libro Prueba 3",
+        "description": "Texto de prueba sobre el tercer libro",
+        "score": 9,
+        "hastag": ["Libro","Terror"],
+        "image": ""        
+    },
+    {
+        "id": 8,
+        "user": "User1",
+        "title": "Libro Prueba 3",
+        "description": "Texto de prueba sobre el tercer libro",
+        "score": 9,
+        "hastag": ["Libro","Terror"],
+        "image": ""        
+    },
+    {
+        "id": 9,
+        "user": "User1",
+        "title": "Libro Prueba 3",
+        "description": "Texto de prueba sobre el tercer librolsdkafosdhfñsdfñlsjdflsadkjflañjfñlaksjfdñlksajfsalkdfjdsfdsañlkfjsd",
+        "score": 9,
+        "hastag": ["Libro","Terror"],
         "image": ""        
     }
 ]

@@ -1,4 +1,4 @@
-import { DarkTheme, DefaultTheme, ThemeProvider } from '@react-navigation/native';
+import { DarkTheme, DefaultTheme } from '@react-navigation/native';
 import { useFonts } from 'expo-font';
 import { Stack } from 'expo-router';
 import * as SplashScreen from 'expo-splash-screen';
@@ -7,7 +7,10 @@ import { useEffect } from 'react';
 import 'react-native-reanimated';
 import { Appearance } from 'react-native';
 
+
 import { Colors } from '@/constants/Colors';
+
+import { ThemeProvider } from '@/context/themeContext';
 
 // Prevent the splash screen from auto-hiding before asset loading is complete.
 SplashScreen.preventAutoHideAsync();
@@ -19,6 +22,7 @@ export default function RootLayout() {
   const [loaded] = useFonts({
     SpaceMono: require('../assets/fonts/SpaceMono-Regular.ttf'),
     IrishGrover: require('../assets/fonts/IrishGrover-Regular.ttf'),
+    lexendDeca: require('../assets/fonts/LexendDeca-VariableFont_wght.ttf')
   });
 
   useEffect(() => {
@@ -32,6 +36,7 @@ export default function RootLayout() {
   }
 
   return (
+    <ThemeProvider>
     <Stack screenOptions={{ headerStyle: {backgroundColor: theme.headerBackground},
      headerTintColor: theme.text, headerShadowVisible: false }}>
       <Stack.Screen name="index" options={{ title: 'Index', headerShown: false}} />
@@ -42,5 +47,6 @@ export default function RootLayout() {
       <Stack.Screen name="addPage" options={{ title: 'addReco', headerShown: false }} />
       <Stack.Screen name="+not-found" />
     </Stack>
+    </ThemeProvider>
   );
 }
