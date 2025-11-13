@@ -1,0 +1,33 @@
+{
+  "aws_project_region": "eu-north-1",
+  "aws_cognito_identity_pool_id": "eu-north-1:50a380f0-063c-41d2-8b3b-0ab7824bea9a",
+  "aws_cognito_region": "eu-north-1",
+  "aws_user_pools_id": "eu-north-1_UPgEyPiCf",
+  "aws_user_pools_web_client_id": "305jcgf13ljh251ng209aha4pg",
+  "oauth": {},
+  "aws_cognito_username_attributes": [],
+  "aws_cognito_social_providers": [],
+  "aws_cognito_signup_attributes": [
+    "EMAIL"
+  ],
+  "aws_cognito_mfa_configuration": "OFF",
+  "aws_cognito_mfa_types": [
+    "SMS"
+  ],
+  "aws_cognito_password_protection_settings": {
+    "passwordPolicyMinLength": 8,
+    "passwordPolicyCharacters": []
+  },
+  "aws_cognito_verification_mechanisms": [
+    "EMAIL"
+  ],
+  "aws_user_files_s3_bucket": "recome89f13fb67475405182627219205e8f0af17c4-dev",
+  "aws_user_files_s3_bucket_region": "eu-north-1",
+  "aws_cloud_logic_custom": [
+    {
+      "name": "itemsApi",
+      "endpoint": "https://rxbbwsvvz2.execute-api.eu-north-1.amazonaws.com/dev",
+      "region": "eu-north-1"
+    }
+  ]
+}
